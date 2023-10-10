@@ -1,0 +1,50 @@
+{
+  "INVOICE" : {
+
+  "Business_Contact_Information" : {
+    "Business_Name" : "nombre",
+    "Street_Address" : "Direccion",
+    "City_State_ZipCode" : "CiudadEstadoCP",
+    "Numero" : "(000) 000-0000",
+    "Email" : "texto@email.com",
+    "Website" : "Sitio Web"
+    },
+
+    "Bill_to" : {
+      "Client_name" : "nombreCliente",
+      "Street_Address" : "Direccion",
+      "City_State_ZipCode" : "CiudadEstadoCP"
+    },
+
+    "Ship_to" : {
+      "Client_name" : "nombreCliente",
+      "Street_Address" : "Direccion",
+      "City_State_ZipCode" : "CiudadEstadoCP"
+    },
+
+    "Invoice_details": {
+      "Invoice_NUmber" : "#12345",
+      "Invoice_Date" : "mm/dd/yyyy",
+      "Terms_Of_Payment" : "Net 30",
+      "Due" : "mm/dd/yyyy"
+    },
+
+    "Description_Of_Goods_Or_Services" : {
+      "Product/Service" : "ProductoOServicio",
+      "Description" : "Descripcion",
+      "Qty/hrs" : 0,
+      "Rate" : 0,
+      "Amount" : 0
+    },
+
+    "BillsAndMessages" : {
+      "Customer_Message" : "Mensaje",
+      "Subtotal" : 0.00,
+      "Sales_Tax" : 0.00,
+      "Shipping" : 0.00,
+      "Total" : 0.00
+    }
+
+  }
+
+}
